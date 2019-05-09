@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4180465378505638}
   - component: {fileID: 212741272364953576}
   - component: {fileID: 60275819148512702}
-  - component: {fileID: 114851411729487650}
+  - component: {fileID: 114726210989326910}
   m_Layer: 0
   m_Name: Podstawka_2
   m_TagString: Untagged
@@ -72,7 +72,7 @@ PolygonCollider2D:
       - {x: 1.0030394, y: -0.0013596416}
       - {x: -0.9927077, y: 0.011842638}
       - {x: -0.99698305, y: 0.28115082}
---- !u!114 &114851411729487650
+--- !u!114 &114726210989326910
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80,12 +80,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1793311424961426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14dd7d98269b9e441866cf34c7987c65, type: 3}
+  m_Script: {fileID: 11500000, guid: d2cc90a872d9d7143a387f36118a0d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  rightScreenEdge: 15
-  leftScreenEdge: 1
+  screenWithInUnits: 16
+  minX: 1
+  maxX: 15
 --- !u!212 &212741272364953576
 SpriteRenderer:
   m_ObjectHideFlags: 1
