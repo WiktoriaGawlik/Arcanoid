@@ -302,7 +302,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4720867393182166, guid: 494611c4928bd8b418b19a43ec0fdc8d, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114305491509167266, guid: 494611c4928bd8b418b19a43ec0fdc8d,
         type: 2}
@@ -317,6 +317,23 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 494611c4928bd8b418b19a43ec0fdc8d, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &165701210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1595313556179950, guid: 494611c4928bd8b418b19a43ec0fdc8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 165701209}
+--- !u!114 &165701211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 165701210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc8b47d0ae6ccf42b1e3f8c9e4dc3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddle1: {fileID: 0}
 --- !u!1 &317987299
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,15 +875,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4180465378505638, guid: 7cc1afe7ba03f3c45a3e4d19f6bf56e7, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4180465378505638, guid: 7cc1afe7ba03f3c45a3e4d19f6bf56e7, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4180465378505638, guid: 7cc1afe7ba03f3c45a3e4d19f6bf56e7, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4180465378505638, guid: 7cc1afe7ba03f3c45a3e4d19f6bf56e7, type: 2}
       propertyPath: m_LocalRotation.w
@@ -874,7 +891,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4180465378505638, guid: 7cc1afe7ba03f3c45a3e4d19f6bf56e7, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114726210989326910, guid: 7cc1afe7ba03f3c45a3e4d19f6bf56e7,
         type: 2}
