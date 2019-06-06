@@ -82,6 +82,7 @@ MonoBehaviour:
   Block1: {fileID: 21300000, guid: eeb6ea1df1c17a0468b7d773304a5136, type: 3}
   BlockBroken2: {fileID: 21300000, guid: d52ee20f4b31e3e4caa63552e6a9b395, type: 3}
   BlockBroken3: {fileID: 21300000, guid: 55a175d639b4abf4aab4c862e9d29699, type: 3}
+  explosion: {fileID: 4381668787347908, guid: 57be01d9192f5a149961e13e62f7cd54, type: 2}
   hitsNeeded: 3
   hitsTaken: 0
 --- !u!212 &212035190495067708

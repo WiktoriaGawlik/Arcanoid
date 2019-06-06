@@ -35,6 +35,7 @@ public class Block : MonoBehaviour {
         hitsTaken += 1;
         if (hitsTaken>=hitsNeeded)
         {
+            Instantiate(explosion, collision.transform.position, collision.transform.rotation);
             Destroy(gameObject);
         }
     }
