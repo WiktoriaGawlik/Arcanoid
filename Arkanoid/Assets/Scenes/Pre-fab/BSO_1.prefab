@@ -9,17 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1484796849447680}
+  m_RootGameObject: {fileID: 1621294280703292}
   m_IsPrefabAsset: 1
---- !u!1 &1484796849447680
+--- !u!1 &1621294280703292
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4246069608183672}
-  - component: {fileID: 212827293422318820}
+  - component: {fileID: 4270803660359304}
+  - component: {fileID: 212441521276165230}
+  - component: {fileID: 114101723506819480}
   m_Layer: 0
   m_Name: BSO_1
   m_TagString: Untagged
@@ -27,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4246069608183672
+--- !u!4 &4270803660359304
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1484796849447680}
+  m_GameObject: {fileID: 1621294280703292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
@@ -40,12 +41,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &212827293422318820
+--- !u!114 &114101723506819480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621294280703292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634dad0d991bb1c4ea9e16f20289ee16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 50579631001299568, guid: 494611c4928bd8b418b19a43ec0fdc8d, type: 2}
+  Block1: {fileID: 21300000, guid: c311431d20873414d852bd9117975306, type: 3}
+  BlockBroken2: {fileID: 21300000, guid: 13e3cae67bd4dae489d24efca58859a9, type: 3}
+  BlockBroken3: {fileID: 21300000, guid: 88a2ecd5181b56f4694ae08a311fefe0, type: 3}
+  hitsNeeded: 3
+  hitsTaken: 0
+--- !u!212 &212441521276165230
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1484796849447680}
+  m_GameObject: {fileID: 1621294280703292}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

@@ -11,6 +11,7 @@ public class Ball : MonoBehaviour {
     [SerializeField] float yPush;
     [SerializeField] Rigidbody2D rb;
     Vector2 paddleToBallVector;
+    public GameManager gm;
 
 	// Use this for initialization
 	private void Start () {
@@ -45,5 +46,15 @@ public class Ball : MonoBehaviour {
     {
         Vector2 paddlePos = new Vector2(paddle1.transform.position.x, paddle1.transform.position.y);
         transform.position = paddlePos + paddleToBallVector;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+    
+        if(collision.CompareTag("lose"))
+        {
+            gm.UpdateLives(-1);
+            hasStarted = false;
+        }
     }
 }
