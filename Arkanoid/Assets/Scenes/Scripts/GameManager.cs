@@ -12,10 +12,12 @@ public class GameManager : MonoBehaviour {
     public Text scoreText;
     public bool gameOver;
     public GameObject gameoverPanel;
+    public int numberOfBlock;
 	
 	void Start () {
         livesText.text = "Lives: " + lives;
-        scoreText.text = "Score: " + score;
+        //  scoreText.text = "Score: " + score;
+        numberOfBlock = GameObject.FindGameObjectsWithTag("Block").Length;
 	}
 	
 	// Update is called once per frame
@@ -29,6 +31,7 @@ public class GameManager : MonoBehaviour {
         }
         livesText.text = "Lives; " + lives;
     }
+ 
     void GameOver()
     {
         gameOver = true;
@@ -37,5 +40,10 @@ public class GameManager : MonoBehaviour {
     public void PlayAgain()
     {
         SceneManager.LoadScene("Menu");
+    }
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Game Quit");                                                                                                                                                                                                                                                                                                             
     }
 }

@@ -10,10 +10,10 @@ public class LevelManager : MonoBehaviour
         Application.LoadLevel(name);
     }
 
-    public void QuitRequest()
-    {
-        Debug.Log("GoodBye");
-        Application.Quit();
-    }
+  //  public void QuitRequest()
+    //{
+   //     Debug.Log("GoodBye");
+   //     Application.Quit();
+   // }
 
 }

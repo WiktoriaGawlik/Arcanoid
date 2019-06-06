@@ -8,6 +8,7 @@ public class Block : MonoBehaviour {
     public Sprite BlockBroken2;
     public Sprite BlockBroken3;
     private SpriteRenderer cc;
+    public Transform explosion;
 
     public int hitsNeeded = 3;
     public int hitsTaken;
